@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Phono - Headphones of the future </title>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/simple-lightbox.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <script src="https://kit.fontawesome.com/089088621c.js" crossorigin="anonymous"></script>
+        <script src="js/simple-lightbox.min.js"></script>
+        <script>
+            $(function() {
+                const $gallery = $(".gallery a").simpleLightbox();
+            });
+        </script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="container flex">
+                <h1 class="logo"> Phono </h1>
+                <ul class="navlinks flex">
+                    <li><a href="#home"> Home </a></li>
+                    <li><a href="#about"> About </a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="main">
+            <div class="container grid">
+                <img class="grid-item1" src="images/showcase.jpeg" alt="">
+                <h2 class="grid-item2"> The headphones of the future. </h2>
+                <p class="grid-item3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repudiandae
+                    rerum libero ipsum asperiores omnis mollitia, nostrum commodi placeat ea
+                    itaque modi corrupti corporis nam voluptas aut reprehenderit eaque culpa.
+                </p>
+                <a class="grid-item4 btnprimary" href="#"> Read More </a>
+            </div>
+        </main>
+
+        <section class="intro">
+            <div class="overlay">
+                <div class="container grid">
+                    <p> Loud & Clear </p>
+                    <h2> People Aren't Hearing All the Music </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repudiandae
+                        laboriosam quia, error tempore porro ducimus voluptate laborum nostrum iure.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <div class="grid">
+                <a class="grid-item1" href="">
+                    <img src="images/gal2323.jpeg" alt="">
+                </a>
+                <a class="grid-item2" href="">
+                    <img src="images/gal39834.jpeg" alt="">
+                </a>
+                <a class="grid-item3" href="">
+                    <img src="images/gal43884.jpeg" alt="">
+                </a>
+                <a class="grid-item4" href="">
+                    <img src="images/gal4545.jpeg" alt="">
+                </a>
+                <a class="grid-item5" href="">
+                    <img src="images/gal4958.jpeg" alt="">
+                </a>
+                <a class="grid-item6" href="">
+                    <img src="images/gal74744.jpeg" alt="">
+                </a>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container grid">
+                <h2 class="grid-item1"> Lorem ipsum dolor sit. </h2>
+                <article class="grid-item2">
+                    <h3> Company Info </h3>
+                    <ul>
+                        <li><a href="#"> All Products </a></li>
+                        <li><a href="#"> About Us </a></li>
+                        <li><a href="#"> Privacy Policy </a></li>
+                        <li><a href="#"> Terms of Service </a></li>
+                    </ul>
+                </article>
+                <article class="grid-item3">
+                    <h3> Blog Posts </h3>
+                    <ul>
+                        <li><a href="#"> Blog Post #1 </a></li>
+                        <li><a href="#"> Blog Post #2 </a></li>
+                        <li><a href="#"> Blog Post #3 </a></li>
+                        <li><a href="#"> Blog Post #4 </a></li>
+                    </ul>
+                </article>
+                <article class="grid-item4 flex">
+                    <h3> Subscribe </h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <form action="POST">
+                        <div class="email-form flex">
+                            <input id="email" type="email" name="email" size="40" placeholder="E-mail">
+                            <button type="submit" value="Submit"></button>
+                        </div>
+                    </form>
+                </article>
+            </div>
+        </footer>
+    </body>
+</html>
